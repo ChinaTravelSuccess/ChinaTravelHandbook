@@ -1,11 +1,11 @@
 # Node
 node_modules/
 
-# Yarn
+# Yarn (only ignore root yarn.lock, not docs-site/yarn.lock)
 .yarn/
 .pnp.*
 .yarnrc.yml
-yarn.lock
+/yarn.lock
 
 # Build
 build/
