@@ -1,6 +1,7 @@
 # 🇨🇳 China-travel-handbook
 
-[![Deploy to GitHub Pages](https://github.com/KatyTao/China-travel-handbook/actions/workflows/deploy.yml/badge.svg)](https://github.com/KatyTao/China-travel-handbook/actions/workflows/deploy.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ff47cb9-718d-4d99-90a2-eb209354c598/deploy-status)](https://app.netlify.com/projects/china-travel-handbook/deploys)
+
 [![License: MIT + Commons Clause](https://img.shields.io/badge/license-MIT--CommonsClause-blue.svg)](./LICENSE)
 
 An open-source guide to help foreign tourists better plan their travels to China.  
@@ -37,8 +38,7 @@ License: MIT + Commons Clause (see LICENSE file for details).
 ## 📚 Docusaurus static site
 
 The static site is built under /docs-site.
-It is automatically deployed to GitHub Pages:
-👉 https://KatyTao.github.io/China-travel-handbook/
+👉 [View Live Site on Netlify](https://china-travel-handbook.netlify.app/docs/intro)
 
 
 ## 💻 Install and Run

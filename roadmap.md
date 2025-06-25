@@ -49,7 +49,7 @@ Our goal is to create a reliable, open-source guide to help foreign tourists pla
 - Keep GitHub as content source of truth (open to contributions)
 
 **Key Tasks**:
-- [ ] Build static site (GitHub Pages, Vercel, Netlify)
+- [ ] Build static site (GitHub Pages, Netlify)
 - [ ] Basic site design (mobile responsive, clean UI)
 - [ ] SEO optimization
 - [ ] Create structured navigation
