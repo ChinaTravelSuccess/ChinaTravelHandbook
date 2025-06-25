@@ -10,8 +10,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "China Travel Handbook",
+  tagline: "Navigate China with confidence - from visa to mobile payments, we've got you covered",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -23,22 +23,30 @@ const config = {
   baseUrl: "/",
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "KatyTao", // Usually your GitHub org/user name.
+  projectName: "China-travel-handbook", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Internationalization configuration
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-CN"],
     localeConfigs: {
       en: {
         label: "English",
+        direction: "ltr",
+        htmlLang: "en-US",
+        calendar: "gregory",
+        path: "en",
+      },
+      "zh-CN": {
+        label: "简体中文",
+        direction: "ltr",
+        htmlLang: "zh-CN",
+        calendar: "gregory",
+        path: "zh-CN",
       },
     },
   },
@@ -49,11 +57,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: "docs/en",
+          path: "docs",
           routeBasePath: "/docs",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/KatyTao/China-travel-handbook/edit/main/docs/en/",
+          editUrl: ({ docPath }) => {
+            return `https://github.com/KatyTao/China-travel-handbook/edit/main/docs-site/docs/${docPath}`;
+          },
         },
         blog: false,
         theme: {
@@ -75,7 +84,12 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          { to: "/docs/intro", label: "Guide", position: "left" },
+          { 
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Travel Guide",
+          },
           {
             type: "localeDropdown",
             position: "right",
@@ -91,11 +105,19 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Travel Guide",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Getting Started",
+                to: "/docs/en/introduction",
+              },
+              {
+                label: "Visa Guide",
+                to: "/docs/en/visa",
+              },
+              {
+                label: "Payment Methods",
+                to: "/docs/en/payment",
               },
             ],
           },
@@ -103,16 +125,16 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "GitHub Discussions",
+                href: "https://github.com/KatyTao/China-travel-handbook/discussions",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Issues",
+                href: "https://github.com/KatyTao/China-travel-handbook/issues",
               },
               {
-                label: "X",
-                href: "https://x.com/docusaurus",
+                label: "Contributing",
+                href: "https://github.com/KatyTao/China-travel-handbook/blob/main/CONTRIBUTING.md",
               },
             ],
           },
@@ -121,12 +143,16 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/KatyTao/China-travel-handbook",
+              },
+              {
+                label: "Netlify",
+                href: "https://china-travel-handbook.netlify.app",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} China Travel Handbook Contributors. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
@@ -136,12 +162,28 @@ const config = {
         {
           name: "keywords",
           content:
-            "China travel guide, China visa, China transportation, foreign tourists, open source guide",
+            "China travel guide, China visa, WeChat Pay, Alipay, China transportation, foreign tourists, open source travel guide, China tourism",
         },
         {
           name: "description",
           content:
-            "An open-source guide to help foreign tourists travel in China.",
+            "Your complete China travel guide - navigate China with confidence from visa applications to mobile payments. Community-driven, always free.",
+        },
+        {
+          name: "author",
+          content: "China Travel Handbook Community",
+        },
+        {
+          property: "og:title",
+          content: "China Travel Handbook - Your Complete Travel Guide",
+        },
+        {
+          property: "og:description",
+          content: "Navigate China with confidence - from visa to mobile payments, we've got you covered",
+        },
+        {
+          property: "og:type",
+          content: "website",
         },
       ],
     }),

@@ -1,35 +1,35 @@
+import React from 'react';
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Everything You Need',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        From visa applications to mobile payments, transportation to cultural etiquette - 
+        we cover every aspect of traveling in China with practical, up-to-date information.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Real Traveler Insights',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Written by travelers, for travelers. Our guides are based on real experiences 
+        and updated regularly to reflect the latest changes in China's travel landscape.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Always Free & Updated',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Open source and community-driven. Our guides are completely free and 
+        continuously updated by contributors who know China inside and out.
       </>
     ),
   },
@@ -42,7 +42,7 @@ function Feature({Svg, title, description}) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <h3>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -61,4 +61,4 @@ export default function HomepageFeatures() {
       </div>
     </section>
   );
-}
+} 
