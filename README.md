@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3ff47cb9-718d-4d99-90a2-eb209354c598/deploy-status)](https://app.netlify.com/projects/china-travel-handbook/deploys) [![License: MIT + Commons Clause](https://img.shields.io/badge/license-MIT--CommonsClause-blue.svg)](./LICENSE)
 
+👉 **[🌐 View Live Site on Netlify → https://china-travel-handbook.netlify.app/docs/intro](https://china-travel-handbook.netlify.app/docs/intro)**
+
 An open-source guide to help foreign tourists better plan their travels to China.  
 This project provides **up-to-date, reliable, and practical information** to address common pain points foreign visitors may encounter when traveling in China.
 
@@ -33,12 +35,6 @@ License: MIT + Commons Clause (see LICENSE file for details).
 
 ---
 
-## 📚 Docusaurus static site
-
-The static site is built under /docs-site.
-👉 [View Live Site on Netlify](https://china-travel-handbook.netlify.app/docs/intro)
-
-
 ## 💻 Install and Run
 
 Using Yarn (preferred):
@@ -69,7 +65,7 @@ cd docs-site
 npm run build
 ```
 
-
+---
 ### 🤝 How to Contribute
 
 We welcome contributions from:
