@@ -1,0 +1,23 @@
+# Node
+node_modules/
+
+# Yarn
+.yarn/
+.pnp.*
+.yarnrc.yml
+yarn.lock
+
+# Build
+build/
+docs-site/build/
+
+# Mac
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env

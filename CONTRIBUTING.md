@@ -1,4 +1,4 @@
-# Contributing to China Travel Guide for Foreign Tourists 🇨🇳
+# Contributing to China-travel-handbook 🇨🇳
 
 First of all, **thank you for considering contributing to this project**! 🎉  
 This project is open-source and community-driven — your help is highly appreciated.
@@ -12,7 +12,7 @@ This project is open-source and community-driven — your help is highly appreci
 ✅ Translate content  
 ✅ Report issues and bugs  
 ✅ Help improve documentation structure  
-✅ Share your real travel experiences
+✅ Share your real travel experiences  
 
 ---
 
@@ -26,28 +26,44 @@ This project is open-source and community-driven — your help is highly appreci
 
 ---
 
+## Reporting Issues
+
+Please use GitHub Issues to report:
+
+- Outdated or inaccurate information  
+- Missing important topics  
+- Any suggestions or feature requests  
+- Bugs in the site
+
+👉 Use our [Issue Templates](https://github.com/KatyTao/China-travel-handbook/issues/new/choose) to help us understand and track your report more easily!
+
+---
+
 ## Style Guidelines
 
 - Write clearly and concisely in English  
-- For factual information, try to include a source link (official site, news, blog)  
+- For factual information, include a source link (official site / news / personal experience) if possible  
 - Structure content using Markdown (## Headings, lists, links, etc.)  
 - Keep tone neutral and helpful — avoid biased or political statements
 
 ---
 
-## Reporting Issues
+## Pull Request Guidelines
 
-Please use GitHub Issues to report:
-- Outdated or inaccurate information  
-- Missing important topics  
-- Any suggestions or feature requests  
+When submitting a PR, please:
+
+- Follow the [Pull Request Template](../.github/PULL_REQUEST_TEMPLATE.md)  
+- Link to related issues if applicable  
+- Keep commits clean and focused on one change  
+- Clearly describe what you have updated
 
 ---
 
 ## Code of Conduct
 
 Be respectful, kind, and constructive.  
-Disrespectful or aggressive behavior will not be tolerated.
+Disrespectful or aggressive behavior will not be tolerated.  
+See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 
 ---
 
@@ -57,4 +73,4 @@ Contributions will be made under the repository license: MIT + Commons Clause.
 
 ---
 
-Thank you again! 🌍✨
+🙏 Thank you again for helping improve the China-travel-handbook! 🌍✨

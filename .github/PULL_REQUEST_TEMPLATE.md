@@ -1,33 +1,27 @@
-# Pull Request
+# 🚀 Pull Request
 
-Thank you for contributing! 🎉
+## 📚 What does this PR do?
 
----
+- [ ] Add new content
+- [ ] Fix outdated information
+- [ ] Improve structure or formatting
+- [ ] Translation update
+- [ ] Other (please describe below)
 
-## What does this PR do?
+## 📝 Description
 
-- [ ] Add new content  
-- [ ] Fix outdated information  
-- [ ] Improve formatting / structure  
-- [ ] Translation update  
-- [ ] Other (please describe)
+<!-- Describe what you updated -->
 
----
+## 🔗 Related Issue
 
-## Related Issue
+Closes #[issue number] (if applicable)
 
-Closes #[ISSUE NUMBER] (if applicable)
+## ✅ Checklist
 
----
-
-## Checklist
-
-- [ ] Content is clear and easy to understand  
-- [ ] Sources (if needed) are included  
-- [ ] No sensitive / political / unverifiable info  
-- [ ] LICENSE notice is respected  
-- [ ] PR follows project style
-
----
+- [ ] Content is accurate and helpful
+- [ ] Sources are included if needed
+- [ ] Follows project style and tone
+- [ ] License notice is respected
+- [ ] Ready for review
 
 🙏 Thank you for your contribution!
