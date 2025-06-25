@@ -1,0 +1,77 @@
+[build]
+  # Build command - 进入docs-site目录并构建
+  command = "cd docs-site && npm ci && npm run build"
+  
+  # Publish directory - Docusaurus构建输出目录
+  publish = "docs-site/build"
+  
+  # Node.js version - 根据package.json中engines要求
+  environment = { NODE_VERSION = "18" }
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+# Docusaurus SPA路由支持
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# 安全头部设置
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# 静态资源缓存优化
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# 字体文件缓存
+[[headers]]
+  for = "*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# 图片缓存
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# Pull Request 预览部署
+[context.deploy-preview]
+  command = "cd docs-site && npm ci && npm run build"
+  environment = { NODE_VERSION = "18" }
+
+# 分支部署
+[context.branch-deploy]
+  command = "cd docs-site && npm ci && npm run build"
+  environment = { NODE_VERSION = "18" }
+
+# 生产环境特定设置
+[context.production]
+  command = "cd docs-site && npm ci && npm run build"
+  environment = { NODE_VERSION = "18", NODE_ENV = "production" }
+
+# 开发分支特定设置（如果有的话）
+[context.homepage]
+  command = "cd docs-site && npm ci && npm run build"
+  environment = { NODE_VERSION = "18", NODE_ENV = "development" } 
