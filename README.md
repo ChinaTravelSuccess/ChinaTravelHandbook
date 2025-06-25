@@ -1,8 +1,6 @@
 # 🇨🇳 China-travel-handbook
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3ff47cb9-718d-4d99-90a2-eb209354c598/deploy-status)](https://app.netlify.com/projects/china-travel-handbook/deploys)
-
-[![License: MIT + Commons Clause](https://img.shields.io/badge/license-MIT--CommonsClause-blue.svg)](./LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ff47cb9-718d-4d99-90a2-eb209354c598/deploy-status)](https://app.netlify.com/projects/china-travel-handbook/deploys) [![License: MIT + Commons Clause](https://img.shields.io/badge/license-MIT--CommonsClause-blue.svg)](./LICENSE)
 
 An open-source guide to help foreign tourists better plan their travels to China.  
 This project provides **up-to-date, reliable, and practical information** to address common pain points foreign visitors may encounter when traveling in China.
