@@ -1,6 +1,6 @@
 # Welcome to China Travel Handbook 🇨🇳 ✈️
 
-** An open-source guide to help foreign tourists plan their trips to China.**  
+**An open-source guide to help foreign tourists plan their trips to China.**
 This handbook aims to provide clear, practical, and up-to-date information for international travelers.
 
 ---

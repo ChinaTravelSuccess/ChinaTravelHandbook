@@ -34,33 +34,6 @@ License: MIT + Commons Clause (see LICENSE file for details).
 
 ---
 
-## 🗂 Repository Structure
-
-```text
-China-travel-handbook/
-├── README.md
-├── LICENSE
-├── roadmap.md
-├── CONTRIBUTING.md
-├── .github/workflows/deploy.yml
-├── docs-site/              # Docusaurus static site
-│   ├── docs/
-│   │   ├── visa.md
-│   │   ├── payment.md
-│   │   ├── transportation.md
-│   │   ├── internet.md
-│   │   ├── language.md
-│   │   ├── culture.md
-│   │   └── safety.md
-│   ├── src/
-│   ├── static/
-│   ├── docusaurus.config.js
-│   ├── sidebars.js
-│   ├── yarn.lock
-│   ├── package.json
-│   └── .gitignore
-```
-
 ## 📚 Docusaurus static site
 
 The static site is built under /docs-site.
@@ -119,10 +92,10 @@ For commercial licensing inquiries, please contact: katyt3253@gmail.com
 ---
 
 ### ✨ Future Plans
-	* 	Add country-specific tips (for US, UK, EU, SEA countries)
-	* 	Multi-language support
-	* 	Interactive map and travel tools
-	* 	Build a static website version for SEO and wider reach
+* Add country-specific tips (for US, UK, EU, SEA countries)
+* Multi-language support
+* Interactive map and travel tools
+* Build a static website version for SEO and wider reach
 
 ---
 
