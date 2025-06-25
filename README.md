@@ -64,7 +64,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details!
 
 MIT + Commons Clause (see LICENSE file for full details).  
 **Commercial use is not allowed without prior written permission.**  
-If you wish to license the content for commercial purposes, please contact: [your.email@example.com]
+If you wish to license the content for commercial purposes, please contact: katyt3253@gmail.com
 
 ---
 
