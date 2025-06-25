@@ -59,6 +59,7 @@ China-travel-handbook/
 │   ├── yarn.lock
 │   ├── package.json
 │   └── .gitignore
+```
 
 ## 📚 Docusaurus static site
 
@@ -107,7 +108,7 @@ We welcome contributions from:
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details!
 
-⸻
+---
 
 ### 📜 License
 
@@ -115,7 +116,7 @@ MIT + Commons Clause (see LICENSE file for full details).
 **Commercial use is not allowed without prior written permission.**
 For commercial licensing inquiries, please contact: katyt3253@gmail.com
 
-⸻
+---
 
 ### ✨ Future Plans
 	* 	Add country-specific tips (for US, UK, EU, SEA countries)
@@ -123,7 +124,7 @@ For commercial licensing inquiries, please contact: katyt3253@gmail.com
 	* 	Interactive map and travel tools
 	* 	Build a static website version for SEO and wider reach
 
-⸻
+---
 
 ### 🙏 Acknowledgements
 

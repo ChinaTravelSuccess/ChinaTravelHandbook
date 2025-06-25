@@ -17,24 +17,15 @@ jobs:
         with:
           node-version: '18'
           cache: 'yarn'
+          cache-dependency-path: docs-site/yarn.lock
 
-      - name: Install dependencies (Yarn or npm)
-        run: |
-          cd docs-site
-          if [ -f yarn.lock ]; then
-            yarn install --frozen-lockfile
-          else
-            npm install
-          fi
+      - name: Install dependencies
+        working-directory: docs-site
+        run: yarn install --frozen-lockfile
 
       - name: Build website
-        run: |
-          cd docs-site
-          if [ -f yarn.lock ]; then
-            yarn build
-          else
-            npm run build
-          fi
+        working-directory: docs-site
+        run: yarn build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
