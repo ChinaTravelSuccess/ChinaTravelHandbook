@@ -27,23 +27,23 @@ Whether you're planning your first visit or returning to explore more, this hand
 ## 📋 What You'll Learn
 
 ### 🛂 **Before You Go**
-- [Visa Applications](./Visa.md) - Complete guide for all countries
+- [Visa Applications](./visa.md) - Complete guide for all countries
 
 ### 💳 **Money & Payments**
-- [Mobile Payments](./Payment.md) - WeChat Pay & Alipay setup
+- [Mobile Payments](./payment.md) - WeChat Pay & Alipay setup
 
 ### 🚄 **Getting Around**
-- [Transportation](./Transportation.md) - Trains, metros, taxis, and ride-sharing
+- [Transportation](./transportation.md) - Trains, metros, taxis, and ride-sharing
 
 ### 🌐 **Staying Connected**
-- [Internet Access](./Internet.md) - VPNs, SIM cards, and WiFi
+- [Internet Access](./internet.md) - VPNs, SIM cards, and WiFi
 
 ### 🗣️ **Communication**
-- [Language Guide](./Language.md) - Survival phrases and translation tools
-- [Cultural Tips](./Culture.md) - Etiquette and social norms
+- [Language Guide](./language.md) - Survival phrases and translation tools
+- [Cultural Tips](./culture.md) - Etiquette and social norms
 
 ### 🛡️ **Safety & Health**
-- [Safety Guidelines](./Safety.md) - Staying safe and aware
+- [Safety Guidelines](./safety.md) - Staying safe and aware
 
 ---
 
@@ -75,10 +75,10 @@ This project thrives on community contributions! Help us keep this guide accurat
 
 New to China? Start with these essential guides:
 
-1. **[Visa Application](./Visa.md)** - Get your visa approved
-2. **[Mobile Payments](./Payment.md)** - Set up WeChat Pay/Alipay
-3. **[Transportation](./Transportation.md)** - Navigate like a local
-4. **[Internet Access](./Internet.md)** - Stay connected
+1. **[Visa Application](./visa.md)** - Get your visa approved
+2. **[Mobile Payments](./payment.md)** - Set up WeChat Pay/Alipay
+3. **[Transportation](./transportation.md)** - Navigate like a local
+4. **[Internet Access](./internet.md)** - Stay connected
 
 ---
 

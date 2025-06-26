@@ -68,6 +68,11 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        // Enable pages for custom homepage redirection
+        pages: {
+          path: "src/pages",
+          routeBasePath: "/",
+        },
       }),
     ],
   ],
@@ -82,13 +87,14 @@ const config = {
         logo: {
           alt: "China Travel Handbook Logo",
           src: "img/logo.svg",
+          href: "/docs/en/introduction",
         },
         items: [
           { 
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Travel Guide",
+            label: "Guide",
           },
           {
             type: "localeDropdown",
