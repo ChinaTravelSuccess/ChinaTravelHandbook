@@ -28,3 +28,80 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } 
+
+details summary {
+  border: none;
+  outline: none;
+}
+
+.region-card {
+  margin-bottom: 40px;
+  padding-bottom: 16px;
+}
+
+/* 通用 summary 样式框架 */
+.custom-summary {
+  cursor: pointer;
+  padding: 12px 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s ease;
+}
+
+/* 🌿 绿色：Americas */
+.custom-summary.green {
+  background: linear-gradient(135deg, #e8f5e8 0%, #a8d8a8 100%);
+  border-color: #c8e6c9;
+}
+
+/* 🟡 橙黄色：Oceania */
+.custom-summary.orange {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffcc80 100%);
+  border-color: #ffcc80;
+}
+
+/* 💖 粉红：Asia */
+.custom-summary.rose {
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);
+  border-color: #f8bbd9;
+}
+
+/* 💚 淡绿黄：Middle East */
+.custom-summary.lime {
+  background: linear-gradient(135deg, #f0f4c3 0%, #dce775 100%);
+  border-color: #dce775;
+}
+
+/* 🌫️ 淡灰蓝：Europe */
+.custom-summary.blue {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-color: #e1e8ed;
+}
+
+.custom-summary::before {
+  display: none;
+}
+
+.custom-summary::after {
+  content: '';
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 0 8px 12px;
+  border-color: transparent transparent transparent currentColor;
+  transform: translateY(-50%) rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+details[open] .custom-summary::after {
+  transform: translateY(-50%) rotate(90deg); /* 展开时朝下 */
+}
