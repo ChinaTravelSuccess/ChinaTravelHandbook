@@ -1,0 +1,66 @@
+.region {
+  margin-bottom: 12px;
+}
+
+.bar {
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-weight: 600;
+  font-size: 17px;
+  position: relative;
+  transition: background 0.2s ease;
+}
+
+.badge {
+  margin-left: auto;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.arrow {
+  margin-left: 12px;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+  color: inherit;
+}
+
+.content {
+  margin-top: 12px;
+  padding: 8px 12px 2px 8px;
+}
+
+.emoji {
+  font-size: 20px;
+}
+
+/* Theme colors */
+.blue {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.green {
+  background: linear-gradient(135deg, #e8f5e8 0%, #a8d8a8 100%);
+}
+
+.orange {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffcc80 100%);
+}
+
+.pink {
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);
+}
+
+.lime {
+  background: linear-gradient(135deg, #f0f4c3 0%, #dce775 100%);
+}
+
+.rose {
+  background: linear-gradient(135deg, #ffe8e8 0%, #ffbcbc 100%);
+}

@@ -1,0 +1,28 @@
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin: 2px;
+  line-height: 1.6;
+}
+
+/* 区域颜色 */
+.blue {
+  background: #e3f2fd;
+}
+.pink {
+  background: #f3e5f5;
+}
+.green {
+  background: #e8f5e8;
+}
+.orange {
+  background: #fff3e0;
+}
+.rose {
+  background: #fce4ec;
+}
+.lime {
+  background: #f0f4c3;
+}
