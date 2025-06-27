@@ -27,7 +27,7 @@ Whether you're planning your first visit or returning to explore more, this hand
 ## 📋 What You'll Learn
 
 ### 🛂 **Before You Go**
-- [Visa Applications](./visa.md) - Complete guide for all countries
+- [Visa Applications](./visa.mdx) - Complete guide for all countries
 
 ### 💳 **Money & Payments**
 - [Mobile Payments](./payment.md) - WeChat Pay & Alipay setup
@@ -75,7 +75,7 @@ This project thrives on community contributions! Help us keep this guide accurat
 
 New to China? Start with these essential guides:
 
-1. **[Visa Application](./visa.md)** - Get your visa approved
+1. **[Visa Application](./visa.mdx)** - Get your visa approved
 2. **[Mobile Payments](./payment.md)** - Set up WeChat Pay/Alipay
 3. **[Transportation](./transportation.md)** - Navigate like a local
 4. **[Internet Access](./internet.md)** - Stay connected
