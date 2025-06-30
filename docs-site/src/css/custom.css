@@ -105,3 +105,34 @@ details summary {
 details[open] .custom-summary::after {
   transform: translateY(-50%) rotate(90deg); /* 展开时朝下 */
 }
+
+.payment-table-container {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.payment-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.payment-table-container th,
+.payment-table-container td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.payment-table-container th {
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.payment-table-container tr:nth-child(even) td {
+  background-color: #eaf8f1;
+}
+
+.payment-table-container tr:nth-child(odd) td {
+  background-color: #ecf0fd;
+}
