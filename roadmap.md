@@ -29,9 +29,9 @@ Our goal is to create a reliable, open-source guide to help foreign tourists pla
 
 **Key Tasks**:
 - [ ] visa.md
-- [ ] payment.md
+- [ ] payment.mdx
 - [ ] transportation.md
-- [ ] internet.md
+- [ ] internet.mdx
 - [ ] language.md
 - [ ] culture.md
 - [ ] safety.md
