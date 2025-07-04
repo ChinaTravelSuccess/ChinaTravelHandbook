@@ -58,6 +58,13 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Food & Dining',
+      items: [
+        'en/food',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Safety & Health',
       items: [
         'en/safety',
