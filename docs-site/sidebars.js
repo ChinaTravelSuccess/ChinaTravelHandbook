@@ -16,68 +16,69 @@ const sidebars = {
   // Main sidebar for English docs
   tutorialSidebar: [
     {
-      type: 'doc',
-      id: 'en/introduction',
-      label: 'Introduction',
+      type: "doc",
+      id: "en/introduction",
+      label: "Introduction",
     },
     {
-      type: 'category',
-      label: 'Before You Go',
-      items: [
-        'en/visa',
-      ],
+      type: "doc",
+      id: "en/visa",
+      label: "Visa",
     },
     {
-      type: 'category',
-      label: 'Money & Payments',
-      items: [
-        'en/payment',
-      ],
+      type: "doc",
+      id: "en/payment",
+      label: "Payment",
     },
     {
-      type: 'category',
-      label: 'Getting Around',
-      items: [
-        'en/transportation',
-      ],
+      type: "doc",
+      id: "en/internet",
+      label: "Internet",
     },
     {
-      type: 'category',
-      label: 'Staying Connected',
-      items: [
-        'en/internet',
-      ],
+      type: "doc",
+      id: "en/transportation",
+      label: "Transportation",
     },
     {
-      type: 'category',
-      label: 'Communication',
-      items: [
-        'en/language',
-        'en/culture',
-      ],
+      type: "doc",
+      id: "en/accommodation",
+      label: "Accommodation",
     },
     {
-      type: 'category',
-      label: 'Food & Dining',
-      items: [
-        'en/food',
-      ],
+      type: "doc",
+      id: "en/food",
+      label: "Food & Dining",
     },
     {
-      type: 'category',
-      label: 'Safety & Health',
-      items: [
-        'en/safety',
-      ],
+      type: "doc",
+      id: "en/language",
+      label: "Language & Culture",
     },
+    {
+      type: "doc",
+      id: "en/safety",
+      label: "Safety & Health",
+    },
+    {
+      type: "category",
+      label: "Trending Cities",
+      items: [
+        {
+          type: "doc",
+          id: "en/cities/shanghai",
+          label: "Shanghai",
+        },
+      ]
+    }
   ],
 
   // Sidebar for Chinese docs
   tutorialSidebarZh: [
     {
-      type: 'doc',
-      id: 'zh-CN/introduction',
-      label: '介绍',
+      type: "doc",
+      id: "zh-CN/introduction",
+      label: "介绍",
     },
   ],
 };
