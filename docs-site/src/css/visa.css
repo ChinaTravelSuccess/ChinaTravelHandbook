@@ -92,6 +92,7 @@
   width: 100%;
   border-collapse: collapse;
   display: inline-table;
+  margin-bottom: 0;
 }
 
 .processing-table th {

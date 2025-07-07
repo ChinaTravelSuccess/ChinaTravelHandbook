@@ -1,0 +1,398 @@
+.firewall-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.firewall-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid;
+  transition: transform 0.3s ease;
+}
+
+.firewall-card:hover {
+  transform: translateY(-2px);
+}
+
+.firewall-card.blocked {
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+
+.firewall-card.available {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.firewall-card h3 {
+  margin: 0 0 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-icon {
+  font-size: 1.2rem;
+}
+
+/* VPN Tips */
+.vpn-tips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.tip-card {
+  background: var(--ifm-color-emphasis-100);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.tip-card h4 {
+  margin: 0 0 1rem 0;
+  color: var(--ifm-color-primary);
+}
+
+/* SIM Options Grid */
+.sim-options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.sim-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.sim-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.sim-card.foreign-sim {
+  border-color: #f59e0b;
+}
+
+.sim-card.esim-card {
+  border-color: #10b981;
+}
+
+.sim-card.local-sim {
+  border-color: #3b82f6;
+}
+
+.sim-header {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sim-icon {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sim-icon img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.sim-title h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.sim-tag {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.sim-tag.expensive {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.sim-tag.recommended {
+  background: #d1fae5;
+  color: #059669;
+}
+
+.sim-tag.best-value {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.sim-content {
+  padding: 1.5rem;
+}
+
+.pros-cons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pros, .cons {
+  background: var(--ifm-color-emphasis-100);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.pros h4, .cons h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.pros ul, .cons ul {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 0.85rem;
+}
+
+.how-to-get {
+  margin-bottom: 1.5rem;
+}
+
+.how-to-get h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+.how-to-get ol {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+}
+
+.carriers-section {
+  margin-bottom: 1.5rem;
+}
+
+.carriers-section h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+.carriers-logos {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.carriers-logos img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.sim-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  margin-top: auto;
+}
+
+.price-label {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.price-amount {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+/* Comparison Table */
+.comparison-table {
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.comparison-table th {
+  background: var(--ifm-color-primary);
+  color: white;
+  font-weight: 600;
+}
+
+.comparison-table tr:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+/* Airport Info */
+.airport-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.airport-card {
+  background: var(--ifm-color-emphasis-100);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.airport-card h3 {
+  margin: 0 0 1rem 0;
+  color: var(--ifm-color-primary);
+}
+
+/* Pro Tips */
+.pro-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.tip-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: transform 0.3s ease;
+}
+
+.tip-item:hover {
+  transform: translateY(-2px);
+}
+
+.tip-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.tip-content h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.tip-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Success Message */
+.success-message {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.success-message h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.success-message p {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-stats {
+    gap: 1rem;
+  }
+  
+  .sim-options-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pros-cons {
+    grid-template-columns: 1fr;
+  }
+  
+  .carriers-logos {
+    justify-content: center;
+  }
+  
+  .comparison-table {
+    font-size: 0.85rem;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.5rem;
+  }
+}
+
+/* Dark mode support */
+[data-theme='dark'] .sim-card {
+  background: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .sim-header {
+  background: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .comparison-table table {
+  background: var(--ifm-color-emphasis-100);
+}
+
+[data-theme='dark'] .success-message {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}

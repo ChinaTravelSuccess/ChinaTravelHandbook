@@ -11,6 +11,7 @@ import Badge from '@theme/Badge'
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 import '../../src/css/custom.css'
+import '../../src/css/internet.css'
 
 <div class="hero-sunset">
   # 🌐 Stay Connected in China
@@ -20,171 +21,343 @@ import '../../src/css/custom.css'
 ---
 
 ## 🚧 The Great Firewall
-China's internet landscape is unique due to the Great Firewall.
-<div class="block-section">
-  <div class="card warning">
-    <h3>❌ Blocked Services</h3>
+<div className="highlight-box">
+  <p>
+    <strong>China's internet landscape is unique due to the Great Firewall.</strong>
+    Many international services are blocked, but alternatives are available.
+  </p>
+</div>
+
+<div className="firewall-grid">
+  <div className="firewall-card blocked">
+    <h3><span className="status-icon">❌</span> Blocked Services</h3>
     <ul>
       <li>Facebook, Instagram, Twitter</li>
       <li>Google (Search, Maps, Gmail)</li>
       <li>WhatsApp, Telegram, YouTube</li>
+      <li>Netflix, Spotify, Dropbox</li>
     </ul>
   </div>
 
-  <div class="card info">
-    <h3>✅ Alternatives in China</h3>
+  <div className="firewall-card available">
+    <h3><span className="status-icon">✅</span> Available Alternatives</h3>
     <ul>
-      <li><strong>Search:</strong> Baidu, Bing (China)</li>
+      <li><strong>Search:</strong> Baidu, Bing China</li>
       <li><strong>Maps:</strong> Amap (高德), Baidu Maps</li>
       <li><strong>Messaging:</strong> WeChat, QQ</li>
+      <li><strong>Video:</strong> Youku, Tencent Video</li>
     </ul>
   </div>
 </div>
+
 
 ---
 
 ## 🔐 VPN Solution
 
-<div class="tip-box">
-  <strong>Before you go:</strong>
-  <ul>
-    <li>Install a reliable VPN</li>
-    <li>Test it on all devices before arrival</li>
-    <li>Save a backup installer on USB/Cloud</li>
-  </ul>
+<div className="vpn-tips">
+  <div className="tip-card">
+    <h4>📱 Before You Go</h4>
+    <ul>
+      <li>Install a reliable VPN service</li>
+      <li>Test it on all your devices</li>
+      <li>Save backup installer files</li>
+      <li>Consider multiple VPN options</li>
+    </ul>
+  </div>
+
+  <div className="tip-card">
+    <h4>🛡️ Recommended Features</h4>
+    <ul>
+      <li>Multiple server locations</li>
+      <li>Strong encryption protocols</li>
+      <li>Mobile app support</li>
+      <li>24/7 customer support</li>
+    </ul>
+  </div>
 </div>
+
 
 ---
 
 ## 📱 Mobile Data & SIM Options
 
-Choose what suits you best:
+<div className="sim-options-grid">
+  <div className="sim-card foreign-sim">
+    <div className="sim-header">
+      <div className="sim-icon">
+        <img src="/img/icons/roaming.png" alt="Foreign SIM" />
+      </div>
+      <div className="sim-title">
+        <h3>Foreign SIM + Roaming</h3>
+        <span className="sim-tag expensive">Premium</span>
+      </div>
+    </div>
 
-<Tabs>
-  <TabItem value="foreign" label="🌍 Foreign SIM + Roaming" default>
+    <div className="sim-content">
+      <div className="pros-cons">
+        <div className="pros">
+          <h4>✅ Pros</h4>
+          <ul>
+            <li>Keep your original number</li>
+            <li>Seamless access to Gmail, Google Maps</li>
+            <li>No setup required</li>
+            <li>WhatsApp works immediately</li>
+          </ul>
+        </div>
 
-<strong>Pros:</strong><br />
-✅ Keep your original number<br />
-✅ Seamless access to Gmail, Google Maps, WhatsApp<br />
-⚠️ Expensive (e.g., $10/day)<br /><br />
+        <div className="cons">
+          <h4>❌ Cons</h4>
+          <ul>
+            <li>Very expensive (~$10/day)</li>
+            <li>May not work for local services</li>
+            <li>Limited data allowances</li>
+          </ul>
+        </div>
+      </div>
 
-<strong>Cons:</strong><br />
-❌ May not work for local services (e.g., train bookings)
+      <div className="sim-price">
+        <span className="price-label">Typical Cost:</span>
+        <span className="price-amount">$8-15/day</span>
+      </div>
+    </div>
+  </div>
 
-  </TabItem>
+  <div className="sim-card esim-card">
+    <div className="sim-header">
+      <div className="sim-icon">
+        <img src="/img/icons/esim.png" alt="eSIM" />
+      </div>
+      <div className="sim-title">
+        <h3>eSIM (International)</h3>
+        <span className="sim-tag best-value">Best Value</span>
+      </div>
+    </div>
 
-  <TabItem value="esim" label="📲 eSIM (International)">
+    <div className="sim-content">
+      <div className="pros-cons">
+        <div className="pros">
+          <h4>✅ Pros</h4>
+          <ul>
+            <li>Easy purchase via apps</li>
+            <li>No physical SIM needed</li>
+            <li>VPN can be preconfigured</li>
+            <li>Multiple data plans available</li>
+          </ul>
+        </div>
 
-<strong>Pros:</strong><br />
-✅ Easy to buy via apps (Airalo, Nomad, Holafly)<br />
-✅ No physical SIM needed<br />
-✅ Allows VPN to be preconfigured<br /><br />
+        <div className="cons">
+          <h4>❌ Cons</h4>
+          <ul>
+            <li>No Chinese phone number (Can't use local apps)</li>
+            <li>Can't receive local SMS</li>
+            <li>Slightly slower than local SIMs</li>
+          </ul>
+        </div>
+      </div>
 
-<strong>How to Get:</strong><br />
-🛒 Purchase through platforms like <Badge type="info">Nomad</Badge>, <Badge type="info">airalo</Badge>, or <Badge type="info">SimOptions</Badge><br />
-📱 Install the corresponding app and select a "China" or "Asia" package<br />
-⚙️ Follow app instructions to install the eSIM profile (recommended before arrival)<br /><br />
+      <div className="how-to-get">
+        <h4>🛒 How to Get</h4>
+        <ol>
+          <li>Download apps: <Badge type="info">Airalo</Badge>, <Badge type="info">Nomad</Badge>, <Badge type="info">Holafly</Badge></li>
+          <li>Select "China" or "Asia" package</li>
+          <li>Install eSIM profile before arrival</li>
+          <li>Activate upon landing</li>
+        </ol>
+      </div>
 
-<strong>Cons:</strong><br />
-❌ No Chinese phone number<br />
-❌ Can’t receive local SMS<br />
-❌ Slightly slower than physical SIMs
+      <div className="sim-price">
+        <span className="price-label">Typical Cost:</span>
+        <span className="price-amount">$15-30/week</span>
+      </div>
+    </div>
+  </div>
 
-  </TabItem>
+  <div className="sim-card local-sim">
+    <div className="sim-header">
+      <div className="sim-icon">
+        <img src="/img/icons/sim-card.png" alt="Local SIM" />
+      </div>
+      <div className="sim-title">
+        <h3>Chinese SIM Card</h3>
+        <span className="sim-tag recommended">Recommended</span>
+      </div>
+    </div>
 
-  <TabItem value="local" label="🇨🇳 Chinese SIM Card">
+    <div className="sim-content">
+      <div className="pros-cons">
+        <div className="pros">
+          <h4>✅ Pros</h4>
+          <ul>
+            <li>Fast 4G/5G data, wide coverage</li>
+            <li>Local number for calls & SMS</li>
+            <li>Full compatibility with Chinese apps</li>
+            <li>Most cost-effective option</li>
+          </ul>
+        </div>
 
-<strong>Pros:</strong><br />
-✅ Fast 4G/5G data, wide coverage<br />
-✅ Local number (calls, SMS)<br />
-✅ Full compatibility with Chinese apps (Didi, Meituan, Alipay)<br /><br />
+        <div className="cons">
+          <h4>❌ Cons</h4>
+          <ul>
+            <li>Must be purchased in person</li>
+            <li>Requires VPN for Google services</li>
+            <li>Language barrier possible</li>
+          </ul>
+        </div>
+      </div>
 
-<strong>How to Get:</strong><br />
-🧳 Bring your <Badge type="info">passport</Badge> as it's required for ID verification<br />
-🛬 Get one right after landing at an <Badge type="warning">airport telecom counter</Badge> (more expensive but English-friendly)<br />
-🏙️ Or visit an <Badge type="warning">official store in the city</Badge> (often Chinese-only service)<br />
-⚠️ Always ask for a <Badge type="danger">new number</Badge> to avoid recycled SIMs that may be linked to previous users’ apps/accounts<br /><br />
+      <div className="how-to-get">
+        <h4>🏪 How to Get</h4>
+        <ol>
+          <li>Bring your <Badge type="warning">passport</Badge> for ID verification</li>
+          <li>Visit airport telecom counter (English support)</li>
+          <li>Or visit official store in city (cheaper but often Chinese-only service)</li>
+          <li>Always request a <Badge type="danger">new number</Badge></li>
+        </ol>
+      </div>
 
-<div style={{ display: 'flex', gap: '1.5rem', alignItems: 'end', justifyContent: 'start', flexWrap: 'wrap', gap: '3rem' }}>
-  <img src="/img/carriers/china-mobile.png" alt="China Mobile" style={{ height: '40px' }} />
-  <img src="/img/carriers/china-unicom.png" alt="China Unicom" style={{ height: '60px' }} />
-  <img src="/img/carriers/china-telecom.png" alt="China Telecom" style={{ height: '40px' }} />
+      <div className="carriers-section">
+        <h4>📡 Major Carriers</h4>
+        <div className="carriers-logos">
+          <img src="/img/carriers/china-mobile.png" alt="China Mobile" />
+          <img src="/img/carriers/china-unicom.png" alt="China Unicom" style={{height: '50px'}}/>
+          <img src="/img/carriers/china-telecom.png" alt="China Telecom" />
+        </div>
+      </div>
+
+      <div className="sim-price">
+        <span className="price-label">Typical Cost:</span>
+        <span className="price-amount">¥30-100/month</span>
+      </div>
+    </div>
+  </div>
+
 </div>
-
-<br />
-
-<strong>Cons:</strong><br />
-❌ Must be purchased in person (airport or store)<br />
-❌ Requires VPN for accessing Google, WhatsApp, Instagram
-
-  </TabItem>
-</Tabs>
 
 ---
 
 ## 📊 Quick Comparison Table
 
-<table class="compare-table">
-  <thead>
-    <tr>
-      <th>Option</th>
-      <th>Local Number</th>
-      <th>SMS/Calls</th>
-      <th>Fast Data</th>
-      <th>Google/WhatsApp</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>eSIM</td>
-      <td><Badge type="danger">No</Badge></td>
-      <td><Badge type="danger">No</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-    </tr>
-    <tr>
-      <td>Chinese SIM (No VPN)</td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="danger">No</Badge></td>
-    </tr>
-    <tr>
-      <td>Chinese SIM + VPN</td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-    </tr>
-    <tr>
-      <td>Foreign SIM (Roaming)</td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-      <td><Badge type="success">Yes</Badge></td>
-    </tr>
-  </tbody>
-</table>
+<div className="comparison-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Option</th>
+        <th>Local Number</th>
+        <th>SMS/Calls</th>
+        <th>Fast Data</th>
+        <th>Google/WhatsApp</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>eSIM</strong></td>
+        <td><Badge type="danger">No</Badge></td>
+        <td><Badge type="danger">No</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="warning">Medium</Badge></td>
+      </tr>
+      <tr>
+        <td><strong>Chinese SIM (No VPN)</strong></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="danger">No</Badge></td>
+        <td><Badge type="success">Low</Badge></td>
+      </tr>
+      <tr>
+        <td><strong>Chinese SIM + VPN</strong></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Low</Badge></td>
+      </tr>
+      <tr>
+        <td><strong>Foreign SIM (Roaming)</strong></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="success">Yes</Badge></td>
+        <td><Badge type="danger">High</Badge></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 ---
 
 ## 🛬 Airport Wi-Fi & SIM Access
 
-<div class="tip-box info">
-  Most major airports in China offer **free Wi‑Fi**. You may need to:
-  - Scan your passport
-  - Receive a temporary code via SMS or kiosk
+<div className="airport-info">
+  <div className="airport-card">
+    <h3>📶 Free Airport Wi-Fi</h3>
+    <p>Most major Chinese airports offer complimentary Wi-Fi access.</p>
+    <ul>
+      <li>Scan your passport at kiosks</li>
+      <li>Receive temporary access code</li>
+      <li>Usually valid for 2-4 hours</li>
+      <li>Good for initial setup</li>
+    </ul>
+  </div>
+
+  <div className="airport-card">
+    <h3>🏪 SIM Card Counters</h3>
+    <p>Telecom counters available in arrival halls.</p>
+    <ul>
+      <li>English-speaking staff</li>
+      <li>Higher prices than city stores</li>
+      <li>Immediate activation</li>
+      <li>Tourist-friendly packages</li>
+    </ul>
+  </div>
 </div>
 
 ---
 
 ## 🧠 Pro Tips
 
-- 📲 Install apps like WeChat, Alipay, Didi, and Baidu Maps *before* arrival  
-- 🔒 Save VPN setup files offline  
-- 🔤 Download translation apps or phrasebooks (Google Translate, Pleco)  
-- 💡 Combine a Chinese SIM + VPN for optimal performance
+<div className="pro-tips-grid">
+
+  <div className="tip-item">
+    <span className="tip-icon">📲</span>
+    <div className="tip-content">
+      <h4>Pre-install Apps</h4>
+      <p>Download WeChat, Alipay, Didi, and Baidu Maps before arrival</p>
+    </div>
+  </div>
+
+  <div className="tip-item">
+    <span className="tip-icon">🔒</span>
+    <div className="tip-content">
+      <h4>Offline VPN Setup</h4>
+      <p>Save VPN installation files and configuration guides offline</p>
+    </div>
+  </div>
+
+  <div className="tip-item">
+    <span className="tip-icon">🔤</span>
+    <div className="tip-content">
+      <h4>Translation Tools</h4>
+      <p>Download offline translation apps and Chinese phrasebooks</p>
+    </div>
+  </div>
+
+  <div className="tip-item">
+    <span className="tip-icon">💡</span>
+    <div className="tip-content">
+      <h4>Optimal Setup</h4>
+      <p>Combine Chinese SIM + VPN for best performance and coverage</p>
+    </div>
+  </div>
+
+</div>
 
 ---
-
-> ✨ With the right setup, staying connected in China is smooth and stress-free.
+<div className="success-message">
+  <h3>✨ Success Guaranteed</h3>
+  <p>With the right setup, staying connected in China is smooth and stress-free. Choose the option that best fits your needs and budget!</p>
+</div>
