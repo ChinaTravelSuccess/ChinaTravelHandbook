@@ -146,6 +146,10 @@
   text-align: center;
 }
 
+.fee-card-wechat {
+  border-top-color: #00aa5b;
+}
+
 .fee-amount {
   font-size: 1.5rem;
   font-weight: bold;
