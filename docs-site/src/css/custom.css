@@ -138,14 +138,104 @@ details[open] .custom-summary::after {
 }
 
 /* Enhanced Hero Section */
+/* Original hero-banner */
 .hero-banner {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
   text-align: center;
-  border-radius: 16px;
-  margin-bottom: 3rem;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+}
+
+/* Ocean Blue */
+.hero-ocean {
+  background: linear-gradient(135deg, #6ba3d6 0%, #5fb3d4 100%);
+  color: #f8fafc;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(107, 163, 214, 0.25);
+}
+
+/* Sunset Orange */
+.hero-sunset {
+  background: linear-gradient(135deg, #d4a5a5 0%, #e6c77a 100%);
+  color: #f8fafc;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(212, 165, 165, 0.25);
+}
+
+/* Forest Green */
+.hero-forest {
+  background: linear-gradient(135deg, #5a9b94 0%, #7db8a4 100%);
+  color: #f8fafc;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(90, 155, 148, 0.25);
+}
+
+/* Royal Purple */
+.hero-royal {
+  background: linear-gradient(135deg, #a8c4c7 0%, #d4c5d9 100%);
+  color: #f8fafc;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(168, 196, 199, 0.25);
+}
+
+/* Fire Red */
+.hero-fire {
+  background: linear-gradient(135deg, #c9a5a8 0%, #d9c4d1 100%);
+  color: #f8fafc;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(201, 165, 168, 0.25);
+}
+
+/* Golden Hour */
+.hero-golden {
+  background: linear-gradient(135deg, #d4c4a8 0%, #c9b5a3 100%);
+  color: #f8fafc;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(212, 196, 168, 0.25);
+}
+
+/* Midnight Dark */
+.hero-midnight {
+  background: linear-gradient(135deg, #4a5568 0%, #5a6c7d 100%);
+  color: #f8fafc;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(74, 85, 104, 0.25);
+}
+
+
+/* Cherry Blossom */
+.hero-cherry {
+  background: linear-gradient(135deg, #d4b5c4 0%, #b5c2d4 100%);
+  color: #f8fafc;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(212, 181, 196, 0.25);
 }
 
 .hero-content {
