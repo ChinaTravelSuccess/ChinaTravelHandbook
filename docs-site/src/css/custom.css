@@ -803,6 +803,74 @@ details[open] .custom-summary::after {
   backdrop-filter: blur(10px);
 }
 
+
+.steps-container {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.faq-section {
+  background: linear-gradient(135deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.faq-item {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.faq-question {
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.title-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 0.2rem;
+  object-fit: contain;
+}
+
+.tip-box {
+  background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.community-tip {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.community-tip a {
+  color: #fbbf24;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.community-tip a:hover {
+  text-decoration: underline;
+}
+
+.tip-box p, .steps-container p, .community-tip p {
+  margin: 0;
+  font-size: 1rem;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
@@ -835,5 +903,9 @@ details[open] .custom-summary::after {
 @media screen and (max-width: 768px) {
   .block-section {
     flex-direction: column;
+  }
+
+  .steps-container {
+    padding: 1.5rem;
   }
 }

@@ -1,19 +1,4 @@
-.visa-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 3rem 2rem;
-  border-radius: 20px;
-  margin: 2rem 0;
-  text-align: center;
-  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
-}
 
-.visa-hero p {
-  font-size: 1.2rem;
-  opacity: 0.9;
-  max-width: 800px;
-  margin: 0 auto;
-}
 
 .info-grid {
   display: grid;
@@ -57,13 +42,6 @@
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
-.visa-steps {
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-radius: 20px;
-  padding: 2rem;
-  margin: 2rem 0;
-}
-
 .step-item {
   background: white;
   border-radius: 10px;
@@ -102,14 +80,6 @@
   border-left: 5px solid #e17055;
 }
 
-.tip-box {
-  background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
-  color: white;
-  border-radius: 15px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-}
-
 .processing-table {
   background: white;
   border-radius: 12px;
@@ -138,27 +108,6 @@
 
 .processing-table tr:hover {
   background: #f8fafc;
-}
-
-.faq-section {
-  background: linear-gradient(135deg, #e3ffe7 0%, #d9e7ff 100%);
-  border-radius: 20px;
-  padding: 2rem;
-  margin: 2rem 0;
-}
-
-.faq-item {
-  background: white;
-  border-radius: 10px;
-  padding: 1.5rem;
-  margin: 1rem 0;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-}
-
-.faq-question {
-  font-weight: bold;
-  color: #1e40af;
-  margin-bottom: 0.5rem;
 }
 
 .image-container {
@@ -223,36 +172,9 @@
   margin: 0.5rem 0;
 }
 
-.community-tip {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 15px;
-  padding: 2rem;
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.community-tip a {
-  color: #fbbf24;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.community-tip a:hover {
-  text-decoration: underline;
-}
-
 @media (max-width: 768px) {
-  .visa-hero h1 {
-    font-size: 2rem;
-  }
-  
   .info-grid {
     grid-template-columns: 1fr;
-  }
-  
-  .visa-hero {
-    padding: 2rem 1rem;
   }
 
   .fee-grid {
@@ -265,19 +187,7 @@
 }
 
 @media (max-width: 480px) {
-  .visa-hero {
-    padding: 1.5rem 1rem;
-  }
-
-  .visa-hero h1 {
-    font-size: 1.8rem;
-  }
-
   .info-card, .visa-type-card, .step-item {
     padding: 1rem;
-  }
-
-  .visa-steps {
-    padding: 1.5rem;
   }
 }
