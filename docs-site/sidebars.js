@@ -57,6 +57,11 @@ const sidebars = {
     },
     {
       type: "doc",
+      id: "en/attractions",
+      label: "Attractions & Tickets",
+    },
+    {
+      type: "doc",
       id: "en/safety",
       label: "Safety & Health",
     },
