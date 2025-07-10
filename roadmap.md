@@ -28,11 +28,11 @@ Our goal is to create a reliable, open-source guide to help foreign tourists pla
 - Promote to relevant communities (GitHub, Reddit, Hacker News, etc.)
 
 **Key Tasks**:
-- [ ] visa.md
-- [ ] payment.mdx
-- [ ] transportation.md
-- [ ] internet.mdx
-- [ ] language.md
+- [✅] visa.md
+- [✅] payment.mdx
+- [ ] transportation.mdx
+- [✅] internet.mdx
+- [✅] language.mdx
 - [ ] culture.md
 - [ ] safety.md
 - [ ] README.md / LICENSE / CONTRIBUTING.md

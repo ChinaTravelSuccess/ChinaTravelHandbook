@@ -33,13 +33,13 @@ Whether you're planning your first visit or returning to explore more, this hand
 - [Mobile Payments](./payment.mdx) - WeChat Pay & Alipay setup
 
 ### 🚄 **Getting Around**
-- [Transportation](./transportation.md) - Trains, metros, taxis, and ride-sharing
+- [Transportation](./transportation.mdx) - Trains, metros, taxis, and ride-sharing
 
 ### 🌐 **Staying Connected**
 - [Internet Access](./internet.mdx) - VPNs, SIM cards, and WiFi
 
 ### 🗣️ **Communication**
-- [Language Guide](./language.md) - Survival phrases and translation tools
+- [Language Guide](./language.mdx) - Survival phrases and translation tools
 - [Cultural Tips](./culture.md) - Etiquette and social norms
 
 ### 🛡️ **Safety & Health**
@@ -77,7 +77,7 @@ New to China? Start with these essential guides:
 
 1. **[Visa Application](./visa.mdx)** - Get your visa approved
 2. **[Mobile Payments](./payment.mdx)** - Set up WeChat Pay/Alipay
-3. **[Transportation](./transportation.md)** - Navigate like a local
+3. **[Transportation](./transportation.mdx)** - Navigate like a local
 4. **[Internet Access](./internet.mdx)** - Stay connected
 
 ---
