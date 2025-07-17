@@ -131,7 +131,7 @@
   font-style: italic;
 }
 
-.image-container {
+.safety-image-container {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -140,14 +140,14 @@
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-.image-container img {
+.safety-image-container img {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.3s ease;
 }
 
-.image-container:hover img {
+.safety-image-container:hover img {
   transform: scale(1.02);
 }
 
@@ -253,7 +253,7 @@
   align-items: center;
 }
 
-.image-container .emergency-image {
+.safety-image-container .emergency-image {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -398,7 +398,7 @@
   align-items: center;
 }
 
-.image-container {
+.safety-image-container {
   position: relative;
 }
 
@@ -1756,13 +1756,13 @@
   font-size: 1.1rem;
 }
 
-.image-container .china-skyline-image {
+.safety-image-container .china-skyline-image {
   width: 100%;
   height: 240px;
   object-fit: cover;
 }
 
-.image-container .un-flag-image {
+.safety-image-container .un-flag-image {
   height: 180px;
   object-fit: cover;
 }
