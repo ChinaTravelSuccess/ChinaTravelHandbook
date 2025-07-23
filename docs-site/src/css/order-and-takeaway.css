@@ -1,0 +1,1029 @@
+/* QR Code Ordering Guide Styles - Unified with Safety Design */
+
+/* Info Highlight Boxes - Match safety style */
+.info-highlight {
+  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+  padding: 1.2rem;
+  border-radius: 10px;
+  border-left: 4px solid #f39c12;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 8px rgba(243, 156, 18, 0.1);
+}
+
+.info-highlight p {
+  margin: 0;
+}
+
+.info-highlight::before {
+  content: "💡";
+  font-size: 1.5rem;
+  min-width: 1.5rem;
+}
+
+.info-highlight strong {
+  color: #d68910;
+  font-weight: 600;
+}
+
+/* Visual Examples Section */
+.visual-examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+
+.example-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  border-top: 3px solid #ff9800;
+  text-align: center;
+}
+
+.example-card strong {
+  display: block;
+  color: #f57c00;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0.6rem 0 0.4rem 0;
+}
+
+.example-card p {
+  margin: 0;
+  font-size: 0.7rem;
+  color: #555;
+  line-height: 1.3;
+}
+
+/* Example Images - Now using actual images */
+.example-image {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #f5f5f5;
+}
+
+.qr-example-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.qr-example-img:hover {
+  transform: scale(1.05);
+}
+
+/* Fallback for missing images */
+.qr-example-img[src="table-corner-qr.jpg"] {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+}
+
+.qr-example-img[src="wall-mounted-qr.jpg"] {
+  background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+}
+
+/* Location Grid Layout - Match safety card style */
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.location-grid > * {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-top: 3px solid #4caf50;
+}
+
+.location-grid > *:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.location-grid strong {
+  display: block;
+  color: #2e7d32;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.location-grid p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.3;
+}
+
+/* App Instructions - WeChat & Alipay with brand colors */
+.app-instructions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.app-instructions > * {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app-instructions > *:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* WeChat styling - Green theme */
+.app-instructions > *:first-child {
+  border-top: 3px solid #07c160;
+}
+
+.app-instructions > *:first-child strong {
+  background: linear-gradient(135deg, #e8f5e8 0%, #f0f9ff 100%);
+  padding: 0.8rem;
+  display: block;
+  color: #07c160;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+  border-bottom: 1px solid #e8f5e8;
+}
+
+/* Alipay styling - Blue theme */
+.app-instructions > *:last-child {
+  border-top: 3px solid #1677ff;
+}
+
+.app-instructions > *:last-child strong {
+  background: linear-gradient(135deg, #e6f4ff 0%, #f0f5ff 100%);
+  padding: 0.8rem;
+  display: block;
+  color: #1677ff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+  border-bottom: 1px solid #e6f4ff;
+}
+
+.app-instructions ol {
+  padding: 0.8rem;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.app-instructions li {
+  margin: 0.4rem 0;
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.3;
+}
+
+/* WeChat Button Styles */
+.wechat-button {
+  display: inline-block;
+  background: #07c160;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  min-width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  line-height: 1;
+  box-shadow: 0 1px 3px rgba(7, 193, 96, 0.3);
+  margin: 0 0.2rem;
+}
+
+.wechat-scan {
+  display: inline-block;
+  background: linear-gradient(135deg, #07c160 0%, #059142 100%);
+  color: white;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(7, 193, 96, 0.3);
+  margin: 0 0.2rem;
+  border: none;
+}
+
+/* Alipay Button Styles */
+.alipay-scan {
+  display: inline-block;
+  background: linear-gradient(135deg, #1677ff 0%, #0958d9 100%);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 16px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(22, 119, 255, 0.3);
+  margin: 0 0.2rem;
+  border: none;
+  position: relative;
+}
+
+/* Screenshot Placeholders - Enhanced for scanning process */
+.screenshot-placeholder {
+  position: relative;
+  background: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  text-align: center;
+  margin: 0.8rem 0 0 0;
+  color: #6c757d;
+  font-size: 0.75rem;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.screenshot-placeholder:hover {
+  border-color: #adb5bd;
+  background: #f1f3f4;
+}
+
+/* WeChat screenshot styling */
+.app-instructions > *:first-child .screenshot-placeholder {
+  border-color: #07c160;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e8f5e8 100%);
+  color: #059142;
+}
+
+.app-instructions > *:first-child .screenshot-placeholder:hover {
+  border-color: #059142;
+  background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%);
+}
+
+/* Alipay screenshot styling */
+.app-instructions > *:last-child .screenshot-placeholder {
+  border-color: #1677ff;
+  background: linear-gradient(135deg, #f0f5ff 0%, #e6f4ff 100%);
+  color: #0958d9;
+}
+
+.app-instructions > *:last-child .screenshot-placeholder:hover {
+  border-color: #0958d9;
+  background: linear-gradient(135deg, #e6f4ff 0%, #d6e4ff 100%);
+}
+
+/* Button Guide - Match safety compact style */
+.button-guide {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.8rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.button-guide > * {
+  background: white;
+  padding: 0.8rem;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.button-guide > *:hover {
+  transform: translateY(-1px);
+}
+
+.button-guide strong {
+  color: #e65100;
+  font-weight: 600;
+}
+
+/* WeChat Translation Section Styles */
+/* Translation Introduction */
+.translation-intro {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.intro-text h3 {
+  margin: 0 0 0.8rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.intro-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.95;
+}
+
+.translation-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.benefit-icon {
+  font-size: 1rem;
+}
+
+/* Translation Steps */
+.translation-steps {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #667eea;
+}
+
+.step-header h3 {
+  margin: 0 0 0.5rem 0;
+  color: #667eea;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.step-header h3::before {
+  content: "📋";
+  font-size: 1.2rem;
+}
+
+.step-intro {
+  margin: 0 0 2rem 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Screenshots Grid */
+.screenshots-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.order-screenshot-item {
+  text-align: center;
+}
+
+.screenshot-frame {
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.screenshot-frame:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.screenshot-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-height: 520px;
+  object-fit: fill;
+}
+
+/* Enhanced Screenshot Caption */
+.screenshot-caption {
+  text-align: left;
+  background: #f8f9ff;
+  border-radius: 8px;
+  padding: 1rem;
+  border-left: 4px solid #667eea;
+  position: relative;
+}
+
+.step-badge {
+  position: absolute;
+  top: -0.5rem;
+  left: 1rem;
+  background: #667eea;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+.caption-content {
+  margin-top: 0.5rem;
+}
+
+.caption-content strong {
+  display: block;
+  color: #667eea;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.caption-content p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Integrated Order Section */
+.order-section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #ff9800;
+}
+
+.order-header h3 {
+  margin: 0 0 0.5rem 0;
+  color: #ff9800;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.order-header h3::before {
+  content: "🛒";
+  font-size: 1.2rem;
+}
+
+.order-intro {
+  margin: 0 0 1.5rem 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Integrated Content Layout */
+.order-content-integrated {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* Steps Layout */
+.order-steps-integrated {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.order-step-card {
+  background: linear-gradient(135deg, #fff8f0 0%, #fff3e6 100%);
+  border-radius: 10px;
+  padding: 1.2rem;
+  border-left: 4px solid #ff9800;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-step-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.15);
+}
+
+.step-number-large {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  box-shadow: 0 3px 6px rgba(255, 152, 0, 0.3);
+}
+
+.step-content-large {
+  flex: 1;
+}
+
+.step-content-large strong {
+  display: block;
+  color: #f57c00;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.step-content-large p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Integrated Example Section */
+.order-example-integrated {
+  background: linear-gradient(135deg, #f8f9ff 0%, #f0f2ff 100%);
+  border-radius: 12px;
+  padding: 0.8rem;
+  border: 2px solid #e8ecff;
+  position: sticky;
+  top: 2rem;
+}
+
+.example-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.example-badge {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  position: absolute;
+  top: -1rem;
+  left: 0.5rem;
+  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+.example-header h4 {
+  margin: 0;
+  color: #667eea;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.screenshot-frame-integrated {
+  background: white;
+  border-radius: 10px;
+  padding: 0;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.screenshot-frame-integrated .screenshot-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.example-description {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 1rem;
+  border-left: 3px solid #667eea;
+  position: relative;
+  margin-top: 20px;
+}
+
+.example-description p {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Main Payment Section */
+.payment-section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-top: 4px solid #4caf50;
+}
+
+.payment-header h3 {
+  margin: 0 0 0.5rem 0;
+  color: #4caf50;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.payment-header h3::before {
+  content: '💳';
+  font-size: 1.2rem;
+}
+
+.payment-intro {
+  margin: 0 0 1.5rem 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Integrated Payment Content Layout */
+.payment-content-integrated {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 1rem;
+  align-items: start;
+}
+
+/* Payment Steps Layout */
+.payment-steps-integrated {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+.payment-step-card {
+  background: linear-gradient(135deg, #f8fff8 0%, #f0fff0 100%);
+  border-radius: 10px;
+  padding: 1rem;
+  border-left: 4px solid #4caf50;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.payment-step-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.15);
+}
+
+.payment-step-card .step-number-large {
+  background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%);
+  color: white;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;
+  box-shadow: 0 3px 6px rgba(76, 175, 80, 0.3);
+}
+
+.payment-step-card .step-content-large {
+  flex: 1;
+}
+
+.payment-step-card .step-content-large strong {
+  display: block;
+  color: #388e3c;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.2;
+}
+
+.payment-step-card .step-content-large p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Payment Example Section */
+.payment-example-integrated {
+  background: linear-gradient(135deg, #f8fff8 0%, #f0fff4 100%);
+  border-radius: 12px;
+  padding: 0.8rem;
+  border: 2px solid #e8f5e8;
+  position: sticky;
+  top: 2rem;
+}
+
+.payment-example-integrated .example-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.payment-example-integrated .example-badge {
+  background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+}
+
+.payment-example-integrated .example-header h4 {
+  margin: 0;
+  color: #4caf50;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.payment-example-integrated .screenshot-frame-integrated {
+  background: white;
+  border-radius: 10px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.payment-example-integrated .example-description {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 1rem;
+  border-left: 3px solid #4caf50;
+  margin-top: 30px;
+}
+
+.payment-example-integrated .example-description p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Payment Methods Section */
+.payment-methods-section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-top: 4px solid #2196f3;
+}
+
+.payment-methods-section h3 {
+  margin: 0 0 1rem 0;
+  color: #2196f3;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.payment-methods-section h3::before {
+  content: '💰';
+  font-size: 1.2rem;
+}
+
+.payment-methods-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.payment-method-card {
+  background: linear-gradient(135deg, #f8fbff 0%, #f0f7ff 100%);
+  border-radius: 10px;
+  padding: 1.2rem;
+  border-left: 4px solid #2196f3;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.payment-method-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.15);
+}
+
+.payment-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.payment-content strong {
+  display: block;
+  color: #1976d2;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.payment-content p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Success Indicator - Match safety stats style */
+.success-indicator {
+  background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+  border: 3px solid #4caf50;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.15);
+}
+
+.success-indicator strong {
+  color: #2e7d32;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Mobile Responsive - Match safety breakpoints */
+@media (max-width: 768px) {
+  .app-instructions {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .location-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .button-guide {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+  .order-building-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-highlight,
+  .success-indicator,
+  .interface-layout {
+    margin: 1rem -10px;
+    border-radius: 6px;
+    padding: 1rem;
+  }
+
+  .screenshot-placeholder {
+    margin: 1rem -10px;
+    padding: 1.5rem 1rem;
+    min-height: 80px;
+  }
+
+  .location-grid {
+    grid-template-columns: 1fr;
+    margin: 1rem -10px;
+  }
+
+  .button-guide {
+    margin: 1rem -10px;
+    padding: 0.8rem;
+  }
+
+  .adding-items-section {
+    margin: 1rem -10px;
+    border-radius: 6px;
+    padding: 1rem;
+  }
+
+  .order-steps li {
+    font-size: 0.8rem;
+  }
+}
+
+/* Print Styles - Match safety print optimization */
+@media print {
+  .screenshot-placeholder {
+    border: 2px solid #666;
+    background: #f5f5f5;
+    color: #333;
+  }
+
+  .info-highlight,
+  .success-indicator,
+  .interface-layout {
+    background: #f9f9f9 !important;
+    border: 2px solid #666 !important;
+    box-shadow: none !important;
+  }
+
+  .location-grid > *,
+  .button-guide > * {
+    background: #f9f9f9 !important;
+    border: 1px solid #666 !important;
+    box-shadow: none !important;
+  }
+
+  .order-building-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .adding-items-section {
+    background: #f9f9f9 !important;
+    border: 2px solid #666 !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Accessibility - Match safety accessibility */
+.location-grid > *:focus-within,
+.app-instructions > *:focus-within {
+  outline: 2px solid #2c5aa0;
+  outline-offset: 2px;
+}
+
+/* High Contrast Mode - Match safety high contrast */
+@media (prefers-contrast: high) {
+  .location-grid > *,
+  .app-instructions > *,
+  .interface-layout,
+  .button-guide > * {
+    border: 1px solid #000;
+  }
+
+  .info-highlight,
+  .success-indicator {
+    border: 2px solid #000;
+  }
+}
+
+/* Reduced Motion - Match safety reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .location-grid > *,
+  .app-instructions > *,
+  .button-guide > * {
+    transition: none;
+  }
+
+  .location-grid > *:hover,
+  .app-instructions > *:hover,
+  .button-guide > *:hover {
+    transform: none;
+  }
+}
+
+/* Animation Effects - Match safety animations */
+.location-grid > *,
+.app-instructions > * {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -46,9 +46,20 @@ const sidebars = {
       label: "Accommodation",
     },
     {
-      type: "doc",
-      id: "en/food",
+      type: "category",
       label: "Food & Dining",
+      items: [
+        {
+          type: "doc",
+          id: "en/food/order-and-takeaway",
+          label: "Ordering & Takeaway",
+        },
+        {
+          type: "doc",
+          id: "en/food/cuisine",
+          label: "Cuisine & Dining",
+        },
+      ]
     },
     {
       type: "doc",
