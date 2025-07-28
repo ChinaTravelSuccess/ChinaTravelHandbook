@@ -43,7 +43,7 @@ Whether you're planning your first visit or returning to explore more, this hand
 - [Cultural Tips](./culture.md) - Etiquette and social norms
 
 ### 🛡️ **Safety & Health**
-- [Safety Guidelines](./safety.md) - Staying safe and aware
+- [Safety Guidelines](./safety.mdx) - Staying safe and aware
 
 ---
 
