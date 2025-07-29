@@ -1825,6 +1825,10 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.eleme-color {
+  background: linear-gradient(135deg, #50adff 0%, #0e85f4 100%);
+}
+
 .screenshot-img {
   width: 100%;
   height: auto;
@@ -1910,6 +1914,14 @@
   font-size: 0.8rem;
   background: #f0fdff;
   color: #555;
+}
+
+.address-screenshot-frame {
+  margin-top: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative
 }
 
 /* Hotel Address Section */
@@ -2078,7 +2090,6 @@
   text-align: center;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
-  border-top: 1px solid rgba(0, 188, 212, 0.2);
 }
 
 /* Menu Selection Section */
@@ -2107,16 +2118,16 @@
 }
 
 .menu-content-integrated {
-  display: grid;
-  grid-template-columns: 1fr 350px;
-  gap: 2rem;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .menu-steps-integrated {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .menu-step-card {
