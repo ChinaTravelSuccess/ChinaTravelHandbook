@@ -37,7 +37,6 @@ const WhatYouLearnList = [
     title: 'Communication',
     items: [
       { title: 'Language Guide', description: 'Survival phrases and translation tools', link: '/docs/en/language' },
-      { title: 'Cultural Tips', description: 'Etiquette and social norms', link: '/docs/en/culture' },
     ]
   },
   {

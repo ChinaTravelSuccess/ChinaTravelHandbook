@@ -40,7 +40,6 @@ Whether you're planning your first visit or returning to explore more, this hand
 
 ### 🗣️ **Communication**
 - [Language Guide](./language.mdx) - Survival phrases and translation tools
-- [Cultural Tips](./culture.md) - Etiquette and social norms
 
 ### 🛡️ **Safety & Health**
 - [Safety Guidelines](./safety.mdx) - Staying safe and aware
