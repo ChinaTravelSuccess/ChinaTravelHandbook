@@ -25,3 +25,7 @@ yarn-error.log*
 .env
 
 .claude/
+
+# IDE files
+.idea/
+.vscode/
