@@ -10,6 +10,8 @@ node_modules/
 # Build
 build/
 docs-site/build/
+.cache/
+docs-site/.cache/
 
 # Mac
 .DS_Store
@@ -21,3 +23,5 @@ yarn-error.log*
 
 # Env
 .env
+
+.claude/

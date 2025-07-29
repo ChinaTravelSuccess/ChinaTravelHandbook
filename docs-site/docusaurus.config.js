@@ -29,6 +29,10 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
+  // SEO optimizations
+  noIndex: false, // Allow indexing
+  trailingSlash: false, // Consistent URL structure
+
   // Internationalization configuration
   i18n: {
     defaultLocale: "en",
@@ -63,6 +67,15 @@ const config = {
           editUrl: ({ docPath }) => {
             return `https://github.com/KatyTao/China-travel-handbook/edit/main/docs-site/docs/${docPath}`;
           },
+          // SEO optimizations for docs
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.8,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
         blog: false,
         theme: {
@@ -168,7 +181,7 @@ const config = {
         {
           name: "keywords",
           content:
-            "China travel guide, China visa, WeChat Pay, Alipay, China transportation, foreign tourists, open source travel guide, China tourism",
+            "China travel guide, China visa, WeChat Pay, Alipay, China transportation, foreign tourists, open source travel guide, China tourism, travel to China 2025, China travel tips, first time China",
         },
         {
           name: "description",
@@ -180,6 +193,15 @@ const config = {
           content: "China Travel Handbook Community",
         },
         {
+          name: "robots",
+          content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        },
+        {
+          name: "googlebot",
+          content: "index, follow",
+        },
+        // Open Graph tags
+        {
           property: "og:title",
           content: "China Travel Handbook - Your Complete Travel Guide",
         },
@@ -190,6 +212,48 @@ const config = {
         {
           property: "og:type",
           content: "website",
+        },
+        {
+          property: "og:url",
+          content: "https://china-travel-handbook.netlify.app",
+        },
+        {
+          property: "og:image",
+          content: "https://china-travel-handbook.netlify.app/img/docusaurus-social-card.jpg",
+        },
+        {
+          property: "og:site_name",
+          content: "China Travel Handbook",
+        },
+        {
+          property: "og:locale",
+          content: "en_US",
+        },
+        // Twitter Card tags
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:title",
+          content: "China Travel Handbook - Your Complete Travel Guide",
+        },
+        {
+          name: "twitter:description",
+          content: "Navigate China with confidence - from visa to mobile payments, we've got you covered",
+        },
+        {
+          name: "twitter:image",
+          content: "https://china-travel-handbook.netlify.app/img/docusaurus-social-card.jpg",
+        },
+        // Additional SEO tags
+        {
+          name: "theme-color",
+          content: "#2e8555",
+        },
+        {
+          name: "msapplication-TileColor",
+          content: "#2e8555",
         },
       ],
     }),

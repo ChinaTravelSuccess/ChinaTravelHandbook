@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://china-travel-handbook.netlify.app/sitemap.xml
+
+# Block admin and development paths
+Disallow: /admin/
+Disallow: /.netlify/
+Disallow: /build/
+Disallow: /node_modules/
+
+# Allow important pages
+Allow: /docs/
+Allow: /img/
+Allow: /css/
+Allow: /js/
+
+# Crawl delay for bots
+Crawl-delay: 1
