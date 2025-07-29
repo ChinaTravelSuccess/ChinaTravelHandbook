@@ -41,6 +41,19 @@ Whether you're planning your first visit or returning to explore more, this hand
 ### 🗣️ **Communication**
 - [Language Guide](./language.mdx) - Survival phrases and translation tools
 
+### 🏨 **Places to Stay**
+- [Accommodation](./accommodation.mdx) - Hotels, hostels, and booking platforms
+
+### 🍜 **Food & Dining**
+- [Cuisine Guide](./food/cuisine.mdx) - Regional foods and dining customs
+- [Food Ordering & Takeaway](./food/order-and-takeaway.mdx) - Apps and delivery services
+
+### 🏛️ **Attractions & Culture**
+- [Tourist Attractions](./attractions.mdx) - Must-see destinations and cultural sites
+
+### 🌆 **Trending Cities**
+- [Shanghai](./cities/shanghai.mdx) - The international financial hub
+
 ### 🛡️ **Safety & Health**
 - [Safety Guidelines](./safety.mdx) - Staying safe and aware
 
