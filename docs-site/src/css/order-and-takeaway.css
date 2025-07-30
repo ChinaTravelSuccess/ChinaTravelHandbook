@@ -2249,10 +2249,9 @@
 }
 
 .checkout-content-integrated {
-  display: grid;
-  grid-template-columns: 1fr 350px;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
-  align-items: start;
 }
 
 .checkout-steps-integrated {
