@@ -2271,6 +2271,37 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.checkout-step-number {
+  background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+  color: white;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;
+  box-shadow: 0 3px 6px rgba(244, 67, 54, 0.3);
+}
+
+.checkout-step-content strong {
+  display: block;
+  color: #d32f2f;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.2;
+}
+
+.checkout-step-content p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
 /* WeChat Translation Guide Section */
 .translation-guide-section {
   background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
