@@ -68,8 +68,8 @@ const config = {
             return `https://github.com/KatyTao/China-travel-handbook/edit/main/docs-site/docs/${docPath}`;
           },
           // SEO optimizations for docs
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
         },
         sitemap: {
           changefreq: 'weekly',

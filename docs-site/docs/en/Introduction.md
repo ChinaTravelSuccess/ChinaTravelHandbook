@@ -94,5 +94,5 @@ New to China? Start with these essential guides:
 
 ---
 
-*Last updated: {new Date().toISOString().split('T')[0]}*
+*Last updated: July 2025*
 *Community contributions: 1,000+ travelers worldwide* 
