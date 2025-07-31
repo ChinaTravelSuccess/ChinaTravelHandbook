@@ -93,6 +93,3 @@ New to China? Start with these essential guides:
 4. **[Internet Access](./internet.mdx)** - Stay connected
 
 ---
-
-*Last updated: July 2025*
-*Community contributions: 1,000+ travelers worldwide* 
