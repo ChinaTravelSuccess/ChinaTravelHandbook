@@ -135,13 +135,13 @@ export default function StructuredData({
           url: baseUrl,
           logo: `${baseUrl}/img/logo.svg`,
           sameAs: [
-            'https://github.com/KatyTao/China-travel-handbook',
+            'https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/',
             'https://china-travel-handbook.netlify.app'
           ],
           contactPoint: {
             '@type': 'ContactPoint',
             contactType: 'customer support',
-            url: 'https://github.com/KatyTao/China-travel-handbook/discussions'
+            url: 'https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/discussions'
           }
         };
 

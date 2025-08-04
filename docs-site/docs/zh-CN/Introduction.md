@@ -67,7 +67,7 @@ keywords: [中国旅行, 中国指南, 国际游客, 签证, 旅游]
 - **翻译**：让这个指南以更多语言可访问
 - **报告问题**：让我们知道过时的信息
 
-👉 [查看我们的贡献指南](https://github.com/KatyTao/China-travel-handbook/blob/main/CONTRIBUTING.md)
+👉 [查看我们的贡献指南](https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/blob/main/CONTRIBUTING.md)
 
 ---
 
@@ -79,8 +79,3 @@ keywords: [中国旅行, 中国指南, 国际游客, 签证, 旅游]
 2. **移动支付** - 设置微信支付/支付宝
 3. **交通运输** - 像本地人一样出行
 4. **网络访问** - 保持连接
-
----
-
-*最后更新：2024年6月*
-*社区贡献：全球1,000+旅行者* 
