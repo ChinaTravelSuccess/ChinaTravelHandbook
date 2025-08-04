@@ -113,14 +113,19 @@ const config = {
             position: "left",
             label: "Guide",
           },
-          {
-            type: "localeDropdown",
-            position: "right",
-          },
+          // {
+          //   type: "localeDropdown",
+          //   position: "right",
+          // },
           {
             href: "https://github.com/ChinaTravelSuccess/ChinaTravelHandbook",
             label: "GitHub",
             position: "right",
+          },
+          {
+            label: '📧 Email Us',
+            href: 'mailto:feedback@chinatravelsuccess.com?subject=China%20Travel%20Handbook%20Feedback&body=Hi!%0A%0APage:%20' + encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '') + '%0A%0AFeedback:%0A',
+            position: 'right',
           },
         ],
       },
