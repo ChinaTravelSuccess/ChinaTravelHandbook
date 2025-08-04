@@ -81,6 +81,10 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        gtag: {
+          trackingID: 'G-HKYRNS51VE',
+          anonymizeIP: true,
+        },
         // Enable pages for custom homepage redirection
         pages: {
           path: "src/pages",
