@@ -2,13 +2,13 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3ff47cb9-718d-4d99-90a2-eb209354c598/deploy-status)](https://app.netlify.com/projects/china-travel-handbook/deploys) [![License: MIT + Commons Clause](https://img.shields.io/badge/license-MIT--CommonsClause-blue.svg)](./LICENSE)
 
-👉 **[🌐 View Live Site on Netlify → https://china-travel-handbook.netlify.app/docs/intro](https://china-travel-handbook.netlify.app/docs/intro)**
+👉 **[🌐 View Live Site on Netlify → https://chinatravelsuccess.org/](https://chinatravelsuccess.org/)**
 
 An open-source guide to help foreign tourists better plan their travels to China.  
 This project provides **up-to-date, reliable, and practical information** to address common pain points foreign visitors may encounter when traveling in China.
 
 License: MIT + Commons Clause (see LICENSE file for details).  
-**Commercial use requires prior permission** — contact: katyt3253@gmail.com
+**Commercial use requires prior permission** — contact: feedback@chinatravelsuccess.org
 
 ---
 
@@ -81,7 +81,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details!
 
 MIT + Commons Clause (see LICENSE file for full details).
 **Commercial use is not allowed without prior written permission.**
-For commercial licensing inquiries, please contact: katyt3253@gmail.com
+For commercial licensing inquiries, please contact: feedback@chinatravelsuccess.org
 
 ---
 

@@ -79,7 +79,7 @@ This project thrives on community contributions! Help us keep this guide accurat
 - **Translate**: Make this guide accessible in more languages
 - **Report Issues**: Let us know about outdated information
 
-👉 [See our Contributing Guide](https://github.com/KatyTao/China-travel-handbook/blob/main/CONTRIBUTING.md)
+👉 [See our Contributing Guide](https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/blob/main/CONTRIBUTING.md)
 
 ---
 
@@ -93,3 +93,20 @@ New to China? Start with these essential guides:
 4. **[Internet Access](./internet.mdx)** - Stay connected
 
 ---
+
+<div className="community-tip">
+  <h3>💡 Join Our Travel Community</h3>
+  <p>
+    Connect with fellow travelers, share visa experiences, and get real-time help
+    from our community!
+  </p>
+  <p>
+    <strong>
+      Join our
+      <a href="https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/discussions">
+        GitHub Discussions
+      </a>
+      to share visa experiences and get help from other travelers!
+    </strong>
+  </p>
+</div>

@@ -35,7 +35,7 @@ Please use GitHub Issues to report:
 - Any suggestions or feature requests  
 - Bugs in the site
 
-👉 Use our [Issue Templates](https://github.com/KatyTao/China-travel-handbook/issues/new/choose) to help us understand and track your report more easily!
+👉 Use our [Issue Templates](https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/issues/new/choose) to help us understand and track your report more easily!
 
 ---
 
@@ -52,7 +52,7 @@ Please use GitHub Issues to report:
 
 When submitting a PR, please:
 
-- Follow the [Pull Request Template](../.github/PULL_REQUEST_TEMPLATE.md)  
+- Follow the [Pull Request Template](./.github/PULL_REQUEST_TEMPLATE.md)  
 - Link to related issues if applicable  
 - Keep commits clean and focused on one change  
 - Clearly describe what you have updated
@@ -63,7 +63,7 @@ When submitting a PR, please:
 
 Be respectful, kind, and constructive.  
 Disrespectful or aggressive behavior will not be tolerated.  
-See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+See [CODE_OF_CONDUCT.md](./.github/CODE_OF_CONDUCT.md)
 
 ---
 

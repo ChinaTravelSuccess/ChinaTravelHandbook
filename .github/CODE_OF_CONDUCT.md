@@ -44,7 +44,7 @@ This Code of Conduct applies within all project spaces (GitHub repo, Issues, PRs
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers at:
 
-**Contact: [katyt3253@gmail.com]**
+**Contact: [feedback@chinatravelsuccess.org]**
 
 All complaints will be reviewed and investigated promptly and fairly.
 

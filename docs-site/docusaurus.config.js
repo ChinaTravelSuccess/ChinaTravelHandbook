@@ -19,11 +19,11 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: "https://china-travel-handbook.netlify.app",
+  url: "https://chinatravelsuccess.org",
   baseUrl: "/",
 
   // GitHub pages deployment config.
-  organizationName: "KatyTao", // Usually your GitHub org/user name.
+  organizationName: "China Travel Success", // Usually your GitHub org/user name.
   projectName: "China-travel-handbook", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -65,7 +65,7 @@ const config = {
           routeBasePath: "/docs",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ docPath }) => {
-            return `https://github.com/KatyTao/China-travel-handbook/edit/main/docs-site/docs/${docPath}`;
+            return `https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/edit/main/docs-site/docs/${docPath}`;
           },
           // SEO optimizations for docs
           showLastUpdateAuthor: false,
@@ -118,7 +118,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/KatyTao/China-travel-handbook",
+            href: "https://github.com/ChinaTravelSuccess/ChinaTravelHandbook",
             label: "GitHub",
             position: "right",
           },
@@ -149,15 +149,15 @@ const config = {
             items: [
               {
                 label: "GitHub Discussions",
-                href: "https://github.com/KatyTao/China-travel-handbook/discussions",
+                href: "https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/discussions",
               },
               {
                 label: "Issues",
-                href: "https://github.com/KatyTao/China-travel-handbook/issues",
+                href: "https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/issues",
               },
               {
                 label: "Contributing",
-                href: "https://github.com/KatyTao/China-travel-handbook/blob/main/CONTRIBUTING.md",
+                href: "https://github.com/ChinaTravelSuccess/ChinaTravelHandbook/blob/main/CONTRIBUTING.md",
               },
             ],
           },
@@ -166,11 +166,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/KatyTao/China-travel-handbook",
-              },
-              {
-                label: "Netlify",
-                href: "https://china-travel-handbook.netlify.app",
+                href: "https://github.com/ChinaTravelSuccess/ChinaTravelHandbook",
               },
             ],
           },
