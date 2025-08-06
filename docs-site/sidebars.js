@@ -76,17 +76,17 @@ const sidebars = {
       id: "en/safety",
       label: "Safety & Health",
     },
-    {
-      type: "category",
-      label: "Trending Cities",
-      items: [
-        {
-          type: "doc",
-          id: "en/cities/shanghai",
-          label: "Shanghai",
-        },
-      ]
-    }
+    // {
+    //   type: "category",
+    //   label: "Trending Cities",
+    //   items: [
+    //     {
+    //       type: "doc",
+    //       id: "en/cities/shanghai",
+    //       label: "Shanghai",
+    //     },
+    //   ]
+    // }
   ],
 
   // Sidebar for Chinese docs
