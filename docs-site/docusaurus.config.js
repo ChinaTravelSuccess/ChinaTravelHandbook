@@ -98,13 +98,16 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      colorMode: {
+        disableSwitch: true,
+      },
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         title: "China Travel Handbook",
         logo: {
           alt: "China Travel Handbook Logo",
           src: "img/logo.svg",
-          href: "/docs/en/introduction",
+          href: "/",
         },
         items: [
           { 
